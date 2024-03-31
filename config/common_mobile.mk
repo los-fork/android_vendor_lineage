@@ -15,8 +15,8 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Apps
 PRODUCT_PACKAGES += \
-    Backgrounds \
-    Glimpse
+    Backgrounds
+    # Glimpse
 
 ifeq ($(PRODUCT_TYPE), go)
 PRODUCT_PACKAGES += \
